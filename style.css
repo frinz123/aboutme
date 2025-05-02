@@ -41,5 +41,71 @@ button{
 button:active{
     background-color: lightgreen;
     transform: scale(1.3)
-        }
+}
+
+.secret{
+    margin-top: 500px;
+}
+
+.facebook{
+    height: 150px;
+    display: flex;
+}
+
+.steam{
+    height: 150px;
+    display: flex;
+}
+
+.github{
+    height: 150px;
+    display: flex;
+}
+
+.facebookprof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 200px;
+    position: relative;
+    top: -125px;
+    left: 130px;
+    font-size: 1.7rem;
+    font-family: "Cedarville Cursive", cursive;
+
+}
+
+.facebookprof, .facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.steamprof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 200px;
+    position: relative;
+    top: -125px;
+    left: 25px;
+    font-size: 1.7rem;
+    font-family: "Cedarville Cursive", cursive;
+}
+
+.githubprof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 200px;
+    position: relative;
+    top: -125px;
+    left: 50px;
+    font-size: 1.7rem;
+    font-family: "Cedarville Cursive", cursive;
+}
 
